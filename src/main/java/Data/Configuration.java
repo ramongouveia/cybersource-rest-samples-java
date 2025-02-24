@@ -8,7 +8,7 @@ public class Configuration {
 
 		// HTTP_Signature = http_signature and JWT = jwt
 		props.setProperty("authenticationType", "http_signature");
-		props.setProperty("ramon9876_1740003469", "testrest");
+		props.setProperty("merchantID", "ramon9876_1740003469");
 		props.setProperty("runEnvironment", "apitest.cybersource.com");
 		props.setProperty("requestJsonPath", "src/main/resources/request.json");
 
