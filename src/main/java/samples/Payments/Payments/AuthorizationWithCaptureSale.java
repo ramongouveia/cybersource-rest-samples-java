@@ -55,7 +55,7 @@ public class AuthorizationWithCaptureSale {
 		Ptsv2paymentsOrderInformation orderInformation = new Ptsv2paymentsOrderInformation();
 		Ptsv2paymentsOrderInformationAmountDetails orderInformationAmountDetails = new Ptsv2paymentsOrderInformationAmountDetails();
 		orderInformationAmountDetails.totalAmount("102.21");
-		orderInformationAmountDetails.currency("USD");
+		orderInformationAmountDetails.currency("BRL");
 		orderInformation.amountDetails(orderInformationAmountDetails);
 
 		Ptsv2paymentsOrderInformationBillTo orderInformationBillTo = new Ptsv2paymentsOrderInformationBillTo();
