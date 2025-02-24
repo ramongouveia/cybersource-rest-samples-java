@@ -8,7 +8,7 @@ public class Configuration {
 
 		// HTTP_Signature = http_signature and JWT = jwt
 		props.setProperty("authenticationType", "http_signature");
-		props.setProperty("merchantID", "testrest");
+		props.setProperty("ramon9876_1740003469", "testrest");
 		props.setProperty("runEnvironment", "apitest.cybersource.com");
 		props.setProperty("requestJsonPath", "src/main/resources/request.json");
 
@@ -25,8 +25,8 @@ public class Configuration {
 
 		props.setProperty("keysDirectory", "src/main/resources");
 		// HTTP Parameters
-		props.setProperty("merchantKeyId", "08c94330-f618-42a3-b09d-e1e43be5efda");
-		props.setProperty("merchantsecretKey", "yBJxy6LjM2TmcPGu+GaJrHtkke25fPpUX+UY6/L/1tE=");
+		props.setProperty("merchantKeyId", "e08b4e12-d25e-477c-918a-c210ad6f3e2c");
+		props.setProperty("merchantsecretKey", "EZRnejiMT+eHZZ5hvIzp17rmMMWdUaaUH2ZkC5DMtaY=");
 		// Logging to be enabled or not.
 		props.setProperty("enableLog", "true");
 		// Log directory Path
