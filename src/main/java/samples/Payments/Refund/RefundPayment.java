@@ -46,7 +46,7 @@ public class RefundPayment {
 		Ptsv2paymentsidrefundsOrderInformation orderInformation = new Ptsv2paymentsidrefundsOrderInformation();
 		Ptsv2paymentsidcapturesOrderInformationAmountDetails orderInformationAmountDetails = new Ptsv2paymentsidcapturesOrderInformationAmountDetails();
 		orderInformationAmountDetails.totalAmount("10");
-		orderInformationAmountDetails.currency("USD");
+		orderInformationAmountDetails.currency("BRL");
 		orderInformation.amountDetails(orderInformationAmountDetails);
 
 		requestObj.orderInformation(orderInformation);
